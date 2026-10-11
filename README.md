@@ -16,8 +16,6 @@ Built with AI pair-programming assistance (Claude).
   Burp Suite, Wireshark, nmap, tcpdump, proxychains4, socat, Hydra, aircrack-ng, sqlmap,
   NetExec, Hashcat, John the Ripper, RustScan, Naabu, ffuf, Gobuster, updog (via pipx),
   plus Kali's `rockyou.txt` wordlist.
-- **sysreptor** is *not* auto-installed (it's a Docker web app with its own setup wizard,
-  not an apt package) -- the installer prints a link to the official setup guide instead.
 
 ## Install
 

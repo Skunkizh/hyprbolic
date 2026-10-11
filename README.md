@@ -1,7 +1,7 @@
 # Hyprbolic
 
 A Hyprland desktop setup for Kali Linux: the theming, keybinds, and window management from
-my own daily Hyprland desktop, with pentest tooling installed instead of my personal apps.
+my own daily Hyprland desktop, with pentest tooling installed from your KaliOS.
 
 Built with AI pair-programming assistance (Claude).
 

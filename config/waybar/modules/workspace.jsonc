@@ -1,0 +1,33 @@
+{
+  "hyprland/workspaces": {
+    "format": "{icon} {windows}",
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "*": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    "window-rewrite-default": "󰊠",
+    "window-rewrite": {
+      // --- Core ---
+      "kitty": "󰆍",
+      "firefox": "",
+      // --- Pentest tools: icon codepoints are a placeholder shield/network glyph --
+      // -- verify they render once the font is installed, swap if blank/wrong, and
+      // -- confirm the window class itself via `hyprctl clients` once installed. --
+      "burpsuite": "",
+      "wireshark": "",
+      // --- System ---
+      "blueman-manager": "",
+      "pavucontrol": "󱕂",
+      "nm-connection-editor": "󰐻"
+    },
+    "format-icons": {
+      "active": "󰮯",
+      "special": "󱁂",
+      "default": "󰊠",
+      "urgent": "󰧵",
+      "empty": ""
+    },
+    "show-special": false,
+    "all-outputs": false
+  }
+}

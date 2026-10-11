@@ -1,0 +1,115 @@
+@import "colors.css";
+
+/*======= LAUNCHER DRAWER =======*/
+#distro-group {
+  margin: 4px 5px;
+  background-image: linear-gradient(135deg, alpha(#2a2139, 0.82), alpha(#cba6f7, 0.45));
+  border-radius: 20px;
+  color: @bar-fg;
+}
+
+#custom-distro {
+  color: @bar-fg;
+  padding: 6px 15px 6px 10px;
+}
+
+#custom-terminal {
+  color: #a6e3a1;
+  padding: 0px 10px;
+}
+
+#custom-files {
+  color: #f9e2af;
+  padding: 0px 10px;
+}
+
+#custom-browser {
+  color: #fab387;
+  padding: 0px 10px;
+}
+
+#custom-obsidian {
+  color: #cba6f7;
+  padding: 0px 10px;
+}
+
+#custom-spotify {
+  color: #1db954;
+  padding: 0px 10px;
+}
+
+#custom-discord {
+  color: #89b4fa;
+  padding: 0px 10px;
+}
+
+#custom-steam {
+  color: #74c7ec;
+  padding: 0px 10px;
+}
+
+#custom-deluge {
+  color: #b4befe;
+  padding: 0px 15px 0px 10px;
+}
+
+#power-profiles-daemon,
+#idle_inhibitor {
+  margin: 4px 5px;
+  padding: 6px 15px 6px 10px;
+  background-image: linear-gradient(135deg, alpha(#2a2139, 0.82), alpha(#cba6f7, 0.45));
+  border-radius: 20px;
+  color: @module-fg;
+}
+
+/*======= MODULE CAPSUL =======*/
+#audio,
+#connections,
+#system,
+#storage {
+  margin: 4px 5px;
+  padding: 6px 6px;
+  background-image: linear-gradient(135deg, alpha(#2a2139, 0.82), alpha(#cba6f7, 0.45));
+  border-radius: 20px;
+  color: @module-fg;
+}
+
+#disk,
+#memory,
+#cpu,
+#temperature,
+#bluetooth {
+  margin-right: 2px;
+  padding: 0 8px;
+}
+
+#network {
+  padding: 0px 10px 0px 4px;
+}
+
+#pulseaudio {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+/*======= TRAY =======*/
+#tray-group {
+  margin: 4px 5px;
+  background-image: linear-gradient(135deg, alpha(#2a2139, 0.82), alpha(#cba6f7, 0.45));
+  border-radius: 20px;
+}
+
+#custom-tray-arrow {
+  padding: 6px 14px 6px 10px;
+  color: @bar-fg;
+}
+
+#tray {
+  padding: 6px 10px;
+}
+
+#tray>.passive,
+#tray>.active,
+#tray>.needs-attention {
+  -gtk-icon-effect: none;
+}

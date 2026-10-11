@@ -1,0 +1,9 @@
+@import "colors.css";
+
+#clock {
+  margin: 4px 5px;
+  padding: 6px 10px 6px 16px;
+  background-image: linear-gradient(135deg, alpha(#2a2139, 0.82), alpha(#cba6f7, 0.45));
+  border-radius: 20px;
+  color: @module-fg;
+}

@@ -1,0 +1,41 @@
+/*
+ * Based on https://github.com/haikal-hakim/athena (MIT) by Muhammad Haikal Hakim.
+ * Changes: single-monitor bar (no output pin), battery removed, workspaces replaced by a
+ * taskbar of open programs, Hyprland logo, mako instead of swaync.
+ */
+{
+  "layer": "top",
+  "height": 42,
+  "spacing": 6,
+  "include": [
+    "./modules/groups.jsonc",
+    "./modules/distro.jsonc",
+    "./modules/storage.jsonc",
+    "./modules/system.jsonc",
+    "./modules/power-profiles-daemon.jsonc",
+    "./modules/taskbar.jsonc",
+    "./modules/idle-ihibitor.jsonc",
+    "./modules/audio.jsonc",
+    "./modules/connections.jsonc",
+    "./modules/clock.jsonc",
+    "./modules/tray-notif.jsonc",
+    "./modules/workspace.jsonc"
+  ],
+  "modules-left": [
+    "group/distro-group",
+    "group/storage",
+    "group/system",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "power-profiles-daemon",
+    "wlr/taskbar",
+    "idle_inhibitor"
+  ],
+  "modules-right": [
+    "group/audio",
+    "group/connections",
+    "clock",
+    "group/tray-group"
+  ]
+}

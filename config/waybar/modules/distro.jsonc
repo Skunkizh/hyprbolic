@@ -1,0 +1,31 @@
+{
+  "custom/distro": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/terminal": {
+    "format": "󰆍",
+    "on-click": "kitty",
+    "tooltip": false
+  },
+  "custom/files": {
+    "format": "",
+    "on-click": "dolphin",
+    "tooltip": false
+  },
+  "custom/browser": {
+    "format": "",
+    "on-click": "firefox",
+    "tooltip": false
+  },
+  "custom/burpsuite": {
+    "format": "",
+    "on-click": "burpsuite",
+    "tooltip": "Burp Suite"
+  },
+  "custom/wireshark": {
+    "format": "",
+    "on-click": "wireshark",
+    "tooltip": "Wireshark"
+  }
+}
